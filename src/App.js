@@ -21,15 +21,17 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Sql Formatter</h1>
-        <div class="select-wrapper">
-          Format
-          <select id="language">
-            <option value="sql">SQL</option>
-            <option value="n1ql">N1QL</option>
-            <option value="db2">DB2</option>
-          </select>
-        </div>
+        <header>
+          <h1>Sql Formatter</h1>
+          <div class="select-wrapper">
+            Format
+            <select id="language">
+              <option value="sql">SQL</option>
+              <option value="n1ql">N1QL</option>
+              <option value="db2">DB2</option>
+            </select>
+          </div>
+        </header>
         <main>
           <section class="input">
             <textarea
